@@ -1,0 +1,49 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNYPA6VpGBin/412P5kMvk/",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ghreza2003/colab/blob/main/%D8%AA%D8%A7%D8%A8%D8%B9%203\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def max100():\n",
+        "    a=input()\n",
+        "    a=int(a)\n",
+        "    max=a\n",
+        "    for i in rang (0,100):\n",
+        "        a=int (input())\n",
+        "        if a>max:\n",
+        "             max=a\n",
+        "        return max"
+      ],
+      "metadata": {
+        "id": "9aPluXQPVZe3"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
